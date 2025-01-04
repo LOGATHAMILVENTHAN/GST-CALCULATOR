@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="gst-container">
-      <h1 className="gst">𝔾𝕊𝕋 ℂ𝔸𝕃ℂ𝕌𝕃𝔸𝕋𝕆ℝ</h1>
+      <h1 className="gst">GST CALCULATOR</h1>
       <div className="input-group">
         <h2>Original Price (₹)</h2>
         <input
