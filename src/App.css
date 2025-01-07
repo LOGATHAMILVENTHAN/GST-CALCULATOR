@@ -20,7 +20,7 @@ body {
 .gst-container {
   background-color:blue;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 100px;
+  padding: 50px;
   border-radius: 8px;
   width: 100%;
   max-width: 600px;
@@ -71,8 +71,8 @@ h1 {
 }
 
 .result {
-  margin-top: 30px;
-  font-size: 18px;
+  margin-top: 20px;
+  font-size: 12px;
   color: whitesmoke;
   font-weight: bold;
 }
@@ -80,7 +80,6 @@ h1 {
 .result h3 {
   margin: 10px 0;
 }
-
 /* Mobile responsiveness using media queries */
 @media (max-width: 480px) {
   body {

@@ -67,18 +67,20 @@ function App() {
         />
       </div>
 
-      <div className="radio-group">
-        <h2>
+     
+        
           <input
+        
             type="radio"
             name="gst-type"
             value="exclusive"
+            
             checked={gstType === "exclusive"}
             onChange={() => setGstType("exclusive")}
           />
           Tax Exclusive
-        </h2>
-        <h2>
+        
+        
           <input
             type="radio"
             name="gst-type"
@@ -87,8 +89,8 @@ function App() {
             onChange={() => setGstType("inclusive")}
           />
           Tax Inclusive
-        </h2>
-      </div>
+        
+      
 
       <button className="submit-btn" onClick={calculateGST}>
         Calculate GST
@@ -103,7 +105,9 @@ function App() {
           <h3>SGST: ₹{sgst}</h3>
         </div>
       )}
+      
     </div>
+    
   );
 }
 
